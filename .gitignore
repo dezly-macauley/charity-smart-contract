@@ -1,0 +1,43 @@
+# Compiler files
+cache/
+out/
+
+# Ignore test caches and build artifacts
+artifacts/
+*.json
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# Ignore dependencies
+lib/
+
+# Ignore editor and OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Solidity debugging files
+*.dbg
+
+# Ignore Node.js dependencies (if any)
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore Solidity coverage reports
+coverage/
+
+# Ignore Forge specific files (if you're using any)
+*.t.sol
+
+# Ignore Rust build artifacts (if you're using Rust for any scripting)
+target/
